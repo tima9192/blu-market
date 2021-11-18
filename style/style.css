@@ -1,0 +1,285 @@
+@import 'fonts.css';
+@import 'tools.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* header */
+.header {
+    position: fixed;
+    width: 90px;
+    height: 100vh;
+    background: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.header:hover {
+    width: 235px;
+}
+
+.header__icon {
+    font-size: 55px;
+    color: #2A86B1;
+}
+
+.header__list {
+    list-style: none;
+}
+
+.header__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #939393;
+    font-size: 18px;
+    margin-bottom: 55px;
+}
+
+.header__link:hover {
+    color: #2A86B1;
+}
+
+.header__link__icon {
+    font-size: 35px;
+    margin-right: 38px;
+}
+
+/* main */
+.main {
+    padding-top: 30px;
+}
+
+.intro {
+    background: url(../img/bg.png) white center/cover no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.intro__content {
+    width: 330px;
+    margin-left: 62px;
+}
+
+.intro__title {
+    font-family: 'Rubik';
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 25px;
+    color: #464748;
+}
+
+.intro__text {
+    font-family: 'Rubik';
+    color: #696868;
+    line-height: 19px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.intro__btn {
+    width: 211px;
+    height: 33px;
+    background: #3FA5D5;
+    border-radius: 30px;
+    border: none;
+}
+
+.intro__link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* .box__section */
+
+.box__section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+
+.box {
+    width: 255px;
+    height: 338px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 32px 18px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box3 {
+    width: 255px;
+    height: 338px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 24px 18px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+.h1box {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2A86B1;
+    justify-content: center;
+}
+
+.h1box1 {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2A86B1;
+    justify-content: center;
+
+}
+
+
+.servis__icon {
+    font-size: 100px;
+    color: #3FA5D5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podrobni {
+    width: 211px;
+    height: 33px;
+    background: #3FA5D5;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* about section */
+
+.about {
+    display: flex;
+}
+
+.about__title {
+    font-family: 'Rubik';
+    font-size: 20px;
+    color: #686868;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+
+.about__info__block {
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.about__info__text {
+    font-family: 'Rubik';
+    text-align: justify;
+    line-height: 19px;
+    color: #545454;
+}
+
+.about__user-block {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.about__user-text__block {
+    margin-left: 15px;
+}
+
+.about__user-text__title {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    color: #323232;
+}
+
+.about__user-text {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 13px;
+    color: #000;
+}
+/* footer */
+.footer{
+    height: 140px;  
+    background: #3FA5D5;
+    padding-top: 40px;
+  
+   
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+.left__footr{
+ font-size: 50px;
+ color: #FFFFFF;  
+
+}
+.right__footer{
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+.support{
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px;
+    color: #FFFFFF; 
+}
+.nomer{
+    font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+}
